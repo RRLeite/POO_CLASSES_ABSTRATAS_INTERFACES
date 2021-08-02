@@ -58,23 +58,12 @@ public abstract class Construcao implements CarbonFootprint {
     }
     
     
-    public void addPessoas(int num){
-        
-        numPessoas += numPessoas;
-        
-    }
+    public abstract void addPessoas(int num);
     
-    public void addLampadas(int num){
-        
-        numLampadas += num;
-        
-    }
+    public abstract void addLampadas(int num);
 
     @Override
-    public void getCarbonFootprint() {
-       System.out.println("Emissão de carbono anual da construcao: ");
-       
-    }
+    public abstract void getCarbonFootprint();
     
     
     
